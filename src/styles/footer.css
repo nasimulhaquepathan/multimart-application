@@ -1,0 +1,131 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: var(--primary-color );
+  }
+  .footer_text {
+    color: #fff;
+  }
+  .footer_logo h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #fff;
+  }
+  .footer_logo p {
+    font-size: 0.9rem;
+    color: #fff;
+  }
+  .delivery_time-item {
+    background: transparent !important;
+  }
+  .delivery_time-item span {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+    /* background: transparent; */
+  }
+  .delivery_time-item p {
+    color: #fff;
+
+  }
+  .footer_title {
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 500;
+  }
+  .newsletter {
+    padding: 7px 15px;
+    border: 1px solid #212245;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .newsletter input {
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .newsletter input:focus {
+    outline: none;
+  }
+  .newsletter span {
+    background: var(--bg-color);
+    padding: 5px 20px;
+    border-radius: 5px;
+  }
+  .newsletter span i {
+    color: #fff;
+  }
+  
+  .newsletter input::placeholder {
+    color: #fff;
+  }
+  .social_links span i {
+    padding: 4px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 50%;
+  }
+  .copyrights_text {
+    font-size: 0.8rem;
+    color: #fff;
+  }
+  @media only screen and (max-width: 992px) {
+  }
+  @media only screen and (max-width: 768px) {
+    .logo_imges {
+      display: flex;
+    }
+    .logoTitle {
+      font-size: 30px;
+      padding: 8px;
+    }
+    .logoImg {
+      width: 50px;
+      height: 50px;
+    }
+    .logo_imges {
+      padding-bottom: 10px;
+    }
+    .delivery_time-item {
+      line-height: 18px;
+      font-size: 0.8rem;
+    }
+    .delivery_time-item span {
+      line-height: 18px;
+      font-size: 0.9rem;
+    }
+    .subscibe_desc {
+      font-size: 1rem;
+    }
+    .footer_text{
+      margin-bottom: 5px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .footer_title {
+      padding-top: 15px;
+      text-align: center;
+    }
+    .logoTitle{
+      text-align: center;
+    }
+    .delivery_time-list {
+      text-align: center;
+    }
+    .delivery_time-item span p {
+      font-size: 0.8rem;
+    }
+    .logo_imges {
+      padding-bottom: 20px;
+    }
+    .footer_text {
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  }
